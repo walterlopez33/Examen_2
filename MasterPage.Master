@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Examen_Numero_2._2.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="CSS/Style.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+<ul class="menu">
+  <li><a href="Inicio.aspx">Encuesta</a></li>
+  <li><a href="Reporte.aspx">Reportes</a></li>
+  <li class="slider"></li>
+</ul>
+
+
+    <form id="form1" runat="server">
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+</body>
+</html>
